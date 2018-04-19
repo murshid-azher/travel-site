@@ -1,4 +1,4 @@
-fucntion Person (fullName, favColor) {
+function Person (fullName, favColor) {
 
 	this.name = fullName;
 	this.color = favColor;
