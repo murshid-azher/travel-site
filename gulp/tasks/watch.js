@@ -20,6 +20,10 @@ gulp.task('watch', function() {
 	watch('./app/assets/styles/**/*.css', function() {
     gulp.start('cssInject'); // start a task
   });
+
+  watch('./app/assets/scripts/**/*.js', function() {
+    gulp.start('scriptsRefresh');
+  });
 });
 
 
@@ -28,4 +32,9 @@ gulp.task('cssInject', ['styles'], function() {
     .pipe(browserSync.stream());
     //stream() method will pipe whatever the content that was piped into
     // available on the browser.
+});
+
+
+gulp.task('scriptsRefresh', ['scripts'], function() {
+  browserSync.reload();
 });
