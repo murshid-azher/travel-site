@@ -1,6 +1,7 @@
 var path = require('path');
 
 module.exports = {
+  mode: 'production',
   entry: {
     App: './app/assets/scripts/App.js',
     Vendor: './app/assets/scripts/Vendor.js'
