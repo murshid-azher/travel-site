@@ -29,7 +29,7 @@
   &__logo {
     left: 50%;
     transform: translateX(-50%) scale(0.8);
-    transition: transform .3s ease-out; 
+    transition: transform .3s ease-out;
     transform-origin: 50% 0%;
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.57);
+        transform: scale(.55);
       }
     }
   }
