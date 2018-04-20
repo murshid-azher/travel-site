@@ -231,8 +231,6 @@
   }
 
   ;
-<<<<<<< HEAD
-=======
 
   /**
    * If the browsers follow the spec, then they would expose vendor-specific styles as:
@@ -817,7 +815,6 @@ Detects support for the Flexible Box Layout model, a.k.a. Flexbox, which allows 
 
   Modernizr.addTest('flexbox', testAllProps('flexBasis', '1px', true));
 
->>>>>>> browser-support
 /*!
 {
   "name": "SVG",
